@@ -27,9 +27,9 @@ export default function Navbar() {
                     <SheetContent side="left">
                         <div className="flex flex-col gap-4 mt-6">
                             <Link href="/" className="text-lg font-medium">Home</Link>
-                            <Link href="#" className="text-lg font-medium">Service</Link>
+                            <Link href="/service" className="text-lg font-medium">Service</Link>
                             <Link href="/about" className="text-lg font-medium">About Us</Link>
-                            <Link href="#" className="text-lg font-medium">Contact Us</Link>
+                            <Link href="/contact" className="text-lg font-medium">Contact Us</Link>
                         </div>
                     </SheetContent>
                 </Sheet>
