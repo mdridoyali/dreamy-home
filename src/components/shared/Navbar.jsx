@@ -1,18 +1,46 @@
-import Link from 'next/link';
-import React from 'react';
-import { Button } from '../ui/button';
+// "use client";
 
-const Navbar = () => {
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import logo from '@/app/assets/logo.png'
+
+export default function Navbar() {
     return (
-        <div>
-            <ul className='flex gap-5 p-5 '>
-                <Link href={'/'}>Home</Link>
-                <Link href={'/about'}>About</Link>
-                <Link href={'/services'}>Services</Link>
-                <Button variant="outline">Outline</Button>
-            </ul>
-        </div>
-    );
-};
+        <nav className="flex justify-between items-center py-2 border-b bg-white shadow-md">
+            {/* Logo */}
+            <div className="">
+                {/* DreamyHome */}
+                <Image className="" src={logo} alt="logo" width={120} />
+                </div>
 
-export default Navbar;
+            {/* Mobile Menu */}
+            <Sheet>
+                <SheetTrigger asChild>
+                    <Button variant="ghost" size="icon">
+                        <Menu className="w-6 h-6 md:hidden" />
+                    </Button>
+                </SheetTrigger>
+                <SheetContent side="left">
+                    <div className="flex flex-col gap-4 mt-6">
+                        <Link href="#" className="text-lg font-medium">Home</Link>
+                        <Link href="#" className="text-lg font-medium">Service</Link>
+                        <Link href="#" className="text-lg font-medium">About Us</Link>
+                        <Link href="#" className="text-lg font-medium">Contact Us</Link>
+                        <Link href="#" className="text-lg font-medium"></Link>
+                    </div>
+                </SheetContent>
+            </Sheet>
+
+            {/* Desktop Menu */}
+            <div className="hidden md:flex gap-6">
+                <a href="#" className="text-lg font-medium">Home</a>
+                <a href="#" className="text-lg font-medium">Service</a>
+                <a href="#" className="text-lg font-medium">About Us</a>
+                <a href="#" className="text-lg font-medium">Contact Us</a>
+            </div>
+        </nav>
+    );
+}
