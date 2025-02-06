@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { Button } from '../ui/button';
 
 const Navbar = () => {
     return (
@@ -8,6 +9,7 @@ const Navbar = () => {
                 <Link href={'/'}>Home</Link>
                 <Link href={'/about'}>About</Link>
                 <Link href={'/services'}>Services</Link>
+                <Button variant="outline">Outline</Button>
             </ul>
         </div>
     );
