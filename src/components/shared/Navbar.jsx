@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <div className="border-b shadow-md">
-            <nav className="max-w-[1330px] flex justify-between items-center mx-auto py-2 px-5 ">
+            <nav className="w-11/12 flex justify-between items-center mx-auto py-2  ">
                 {/* Logo */}
                 <div className="w-20 md:w-28">
                     {/* DreamyHome */}

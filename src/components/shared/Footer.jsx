@@ -9,7 +9,7 @@ const Footer = () => {
 
     return (
         <footer className="bg-[#232323]  dark:bg-gray-900 text-white ">
-            <div className="max-w-[1330px]  mx-auto p-7 flex flex-col md:flex-row items-center justify-between">
+            <div className="w-11/12   mx-auto py-7 flex flex-col md:flex-row items-center justify-between">
                 {/* Left Side - Branding */}
                 <div className="text-lg font-semibold flex flex-col items-center">
                     <Image className="" src={logo} alt="logo" width={120} />

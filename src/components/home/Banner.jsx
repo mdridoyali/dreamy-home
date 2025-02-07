@@ -29,7 +29,7 @@ const Banner = () => {
 
     return (
         <div className="relative">
-            <div className={`relative w-full h-screen transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-0'}`}>
+            <div className={`relative w-full h-[90vh] md:h-screen transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-0'}`}>
                 <Image
                     className="w-full h-full"
                     src={images[currentImage]}
@@ -39,7 +39,7 @@ const Banner = () => {
             </div>
 
 
-            <div className="absolute top-[20%] left-1/2 transform -translate-x-1/2 text-center text-white bg-black bg-opacity-50 p-2 rounded-md">
+            <div className="absolute top-[20%] w-60 md:w-auto left-1/2 transform -translate-x-1/2 text-center text-white bg-black bg-opacity-50 p-2 rounded-md">
                 <h2 className="text-4xl md:text-6xl font-bold text-blue-500 mb-4">
                     Design Your Dream Space
                 </h2>
