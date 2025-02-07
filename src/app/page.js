@@ -1,4 +1,5 @@
 import Banner from "@/components/home/Banner";
+import OurServiceAria from "@/components/home/OurServiceAria";
 import WhatWeOffer from "@/components/home/WhatWeOffer";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Banner />
       <WhatWeOffer/>
+      <OurServiceAria/>
     </div>
   );
 }
