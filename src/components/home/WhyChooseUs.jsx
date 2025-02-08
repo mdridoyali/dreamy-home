@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
             <SectionTitle title={'Why Choose Us'} />
             <div className='w-11/12 mt-7 mx-auto md:flex justify-center items-center gap-6 md:gap-20 '>
                 <div className='md:w-1/2'>
-                    <p className='text-xl md:w-2/3 text-gray-600 leading-10 underline'>
+                    <p className='text-xl lg:w-2/3 text-gray-600 leading-10 underline'>
                         Through a unique combination of engineering, construction and design disciplines and
                         expertise. Interior design is the art and science of enhancing the interiors, sometimes
                         including the exterior, of a space or building, to achieve a healthier and more aesthetically
