@@ -15,14 +15,16 @@ import rfl from "@/app/assets/companyLogo/rfl.jpg";
 const TrustedBrands = () => {
 
     return (
-        <div className="my-20 text-center">
+        <div className="my-20 w-8/12 mx-auto text-center">
             <SectionTitle title={'Trusted by Leading Brands'} titleDescription={'We have worked with 100+ trusted companies.'} />
-            <div className="">
-                <Image width={200} className="" src={walton} />
-                <Image src={rfl} />
-                <Image src={brb} />
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+                <Image width={100} className="" src={walton} />
+                <Image width={100} className="" src={rfl} />
+                <Image width={100} className="" src={brb} />
+                <Image width={100} className="" src={nasir} />
+                <Image width={100} className="" src={vision} />
+                <Image width={100} className="" src={square} />
             </div>
-
         </div>
     );
 };
