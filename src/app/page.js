@@ -1,7 +1,8 @@
 import Banner from "@/components/home/Banner";
-import MeatOurExperts from "@/components/home/MeatOurExperts";
+import MeetOurExperts from "@/components/home/MeetOurExperts";
 import OurServiceAria from "@/components/home/OurServiceAria";
 import OurStatus from "@/components/home/OurStatus";
+import TrustedBrands from "@/components/home/TrustedBrands";
 import WhatWeOffer from "@/components/home/WhatWeOffer";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 
@@ -14,7 +15,8 @@ export default function Home() {
       <OurServiceAria/>
       <WhyChooseUs/>
       <OurStatus/>
-      <MeatOurExperts/>
+      <MeetOurExperts/>
+      <TrustedBrands/>
     </div>
   );
 }

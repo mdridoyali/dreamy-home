@@ -9,7 +9,7 @@ import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdAddIcCall } from "react-icons/md";
 
 
-const MeatOurExperts = () => {
+const MeetOurExperts = () => {
     return (
         <div className='w-11/12 mb-20 mx-auto'>
             <SectionTitle title={'Meet Our Experts'} titleDescription={'Experts Dedicated to Designing Your Dream Spaces'} />
@@ -89,4 +89,4 @@ const MeatOurExperts = () => {
     );
 };
 
-export default MeatOurExperts;
+export default MeetOurExperts;
