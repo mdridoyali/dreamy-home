@@ -10,8 +10,8 @@ const OurServiceAria = () => {
             <Image className='h-[70vh] object-cover' src={img} alt="Service Area" />
             <div className='absolute top-[120px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
                 <SectionTitle
-                    className='text-white'
                     title={'Our Service Area'}
+                    pColor={'text-white'}
                     titleDescription={'Discover our expert interior design solutions tailored to transform your home or workplace into a masterpiece.'}
                 />
             </div>

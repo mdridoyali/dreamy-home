@@ -48,7 +48,7 @@ const Banner = () => {
                 </p>
                 <div className="flex mx-auto my-4 w-full max-w-sm items-center gap-1">
                     <Input type="email" placeholder="Search" />
-                    <Button type="submit"><FaSearch/></Button>
+                    <Button type="submit " className='bg-blue-500'><FaSearch/></Button>
                 </div>
             </div>
         </div>
