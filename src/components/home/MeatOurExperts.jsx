@@ -5,16 +5,21 @@ import img1 from '@/app/assets/ourAgents/1.jpg'
 import img2 from '@/app/assets/ourAgents/2.jpg'
 import img3 from '@/app/assets/ourAgents/3.jpg'
 
+import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { MdAddIcCall } from "react-icons/md";
+
+
 const MeatOurExperts = () => {
     return (
         <div className='w-11/12 mb-20 mx-auto'>
             <SectionTitle title={'Meet Our Experts'} titleDescription={'Experts Dedicated to Designing Your Dream Spaces'} />
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                <div className='rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 overflow-hidden'>
-                    {/* Image Wrapper for Zoom Effect */}
+
+                {/* card 1 */}
+                <div className='group rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 overflow-hidden'>
                     <div className="overflow-hidden">
                         <Image
-                            className='max-w-full h-80 object-cover rounded-t-xl transition-transform duration-300 ease-in-out hover:scale-105'
+                            className='max-w-full h-80 object-cover rounded-t-xl transition-transform duration-300 ease-in-out group-hover:scale-105'
                             src={img1}
                             alt="Ayesha Rahman"
                         />
@@ -25,20 +30,59 @@ const MeatOurExperts = () => {
                         <p className='text-sm text-gray-600'>
                             With over 10 years of experience, Ayesha specializes in modern and luxury interiors, transforming spaces with elegance and functionality.
                         </p>
+                        <div className='flex gap-5 mt-2 text-2xl justify-end'>
+                            <FaFacebook className='cursor-pointer' />
+                            <FaLinkedinIn className='cursor-pointer' />
+                            <FaTwitter className='cursor-pointer' />
+                            <MdAddIcCall className='cursor-pointer' />
+                        </div>
                     </div>
                 </div>
-
-                <div>
-                    <Image />
-                    <h2>Hasan Kabir (Khulna)</h2>
-                    <h3>Creative Space Planner.</h3>
-                    <p>Hasan is an expert in maximizing small spaces with innovative layouts and smart furniture designs, making every inch count.</p>
+                {/* card 2 */}
+                <div className='group overflow-hidden rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 '>
+                    <div className="overflow-hidden">
+                        <Image
+                            className='max-w-full h-80 object-cover rounded-t-xl duration-300 group-hover:scale-105'
+                            src={img3}
+                            alt="Hasan Kabir (Khulna)"
+                        />
+                    </div>
+                    <div className='p-4'>
+                        <h2 className='text-blue-500 font-semibold text-xl'>Hasan Kabir (Khulna)</h2>
+                        <h3 className='font-semibold text-gray-600'>Creative Space Planner.</h3>
+                        <p className='text-sm text-gray-600'>
+                            Hasan is an expert in maximizing small spaces with innovative layouts and smart furniture designs, making every inch count.
+                        </p>
+                        <div className='flex gap-5 mt-2 text-2xl justify-end'>
+                            <FaFacebook className='cursor-pointer' />
+                            <FaLinkedinIn className='cursor-pointer' />
+                            <FaTwitter className='cursor-pointer' />
+                            <MdAddIcCall className='cursor-pointer' />
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <Image />
-                    <h2>Nusrat Jahan (Rajshahi)</h2>
-                    <h3>Residential Design Specialist</h3>
-                    <p>Passionate about cozy and personalized interiors, Nusrat brings warmth and harmony to every home she designs.</p>
+                {/* card 3 */}
+                <div className='group overflow-hidden rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 '>
+                    <div className="overflow-hidden">
+                        <Image
+                            className='max-w-full h-80 object-cover rounded-t-xl duration-300 group-hover:scale-105'
+                            src={img2}
+                            alt="Hasan Kabir (Khulna)"
+                        />
+                    </div>
+                    <div className='p-4'>
+                        <h2 className='text-blue-500 font-semibold text-xl'>Nusrat Jahan (Rajshahi)</h2>
+                        <h3 className='font-semibold text-gray-600'>Residential Design Specialist.</h3>
+                        <p className='text-sm text-gray-600'>
+                            Passionate about cozy and personalized interiors, Nusrat brings warmth and harmony to every home she designs.
+                        </p>
+                        <div className='flex gap-5 mt-2 text-2xl justify-end'>
+                            <FaFacebook className='cursor-pointer' />
+                            <FaLinkedinIn className='cursor-pointer' />
+                            <FaTwitter className='cursor-pointer' />
+                            <MdAddIcCall className='cursor-pointer' />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
