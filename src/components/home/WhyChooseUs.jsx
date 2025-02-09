@@ -9,9 +9,9 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
     return (
-        <div className='mb-20'>
+        <div className='mb-20 w-11/12  mx-auto'>
             <SectionTitle title={'Why Choose Us'} titleDescription={'Experience, Expertise & Excellence – Discover Why We are the Best Choice!'}/>
-            <div className='w-11/12 mt-7 mx-auto md:flex justify-center items-center gap-6 md:gap-20 '>
+            <div className=' md:flex justify-center items-center gap-6 md:gap-20 '>
                 <div className='md:w-1/2'>
                     <p className='text-xl lg:w-2/3 text-gray-600 leading-10 underline'>
                         Through a unique combination of engineering, construction and design disciplines and
@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
                 </div>
 
                 {/* card container */}
-                <div className='md:w-1/2 grid grid-cols-2 gap-10'>
+                <div className='md:w-1/2 grid grid-cols-2 gap-10 mt-5'>
                     <div className='p-5 text-gray-600 font-semibold hover:text-blue-500 shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all flex flex-col items-center gap-5 rounded-lg text-center'>
                         <Image src={experience} />
                         <h2 className='text-xl  '>10+ Years of Experience</h2>

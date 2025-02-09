@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const OurServiceAria = () => {
     return (
-        <div className='my-32 mb-56 relative'>
+        <div className='my-20 mb-56 relative'>
             <Image className='h-[70vh] object-cover' src={img} alt="Service Area" />
             <div className='absolute top-[120px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
                 <SectionTitle

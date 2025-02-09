@@ -2,7 +2,7 @@ import Banner from "@/components/home/Banner";
 import MeetOurExperts from "@/components/home/MeetOurExperts";
 import OurServiceAria from "@/components/home/OurServiceAria";
 import OurStatus from "@/components/home/OurStatus";
-import OurWorks from "@/components/home/OurWorks";
+import PortfolioPreview from "@/components/home/PortfolioPreview";
 import ReviewSection from "@/components/home/ReviewSection";
 import TrustedBrands from "@/components/home/TrustedBrands";
 import WhatWeOffer from "@/components/home/WhatWeOffer";
@@ -19,7 +19,7 @@ export default function Home() {
       <OurStatus/>
       <MeetOurExperts/>
       <TrustedBrands/>
-      <OurWorks/>
+      <PortfolioPreview/>
       <ReviewSection/>
     </div>
   );

@@ -29,7 +29,7 @@ const Banner = () => {
 
     return (
         <div className="relative">
-            <div className={`relative w-full h-[90vh] md:h-screen transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-0'}`}>
+            <div className={`relative w-full h-[80vh] md:h-screen transition-opacity duration-1000 ${fade ? 'opacity-100' : 'opacity-0'}`}>
                 <Image
                     className="w-full h-full"
                     src={images[currentImage]}
