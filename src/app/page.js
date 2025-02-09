@@ -1,4 +1,5 @@
 import Banner from "@/components/home/Banner";
+import Faq from "@/components/home/Faq";
 import MeetOurExperts from "@/components/home/MeetOurExperts";
 import OurServiceAria from "@/components/home/OurServiceAria";
 import OurStatus from "@/components/home/OurStatus";
@@ -21,6 +22,7 @@ export default function Home() {
       <TrustedBrands/>
       <PortfolioPreview/>
       <ReviewSection/>
+      <Faq/>
     </div>
   );
 }
