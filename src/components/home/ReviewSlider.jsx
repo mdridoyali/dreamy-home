@@ -67,13 +67,22 @@ const ReviewSlider = () => {
             >
                 {
                     reviews?.map(data => <SwiperSlide className='' key={data.id}>
-                        <div className='group overflow-hidden transition-all  space-y-3 px-7 md:px-10  py-5 rounded-md text-sm md:text-base bg-black opacity-60 '>
-                            <div className='text-center overflow-hidden'>
-                                <Image src={data?.image} alt="user Image" width={100} height={100} className='rounded-full mx-auto  transition-transform duration-300 ease-in-out group-hover:scale-105' />
+                        <div className='group overflow-hidden transition-all space-y-3 px-7 md:px-10 py-5 rounded-md text-sm md:text-base relative'>
+
+                            <div className="absolute inset-0 bg-black opacity-60 rounded-md"></div>
+
+                            <div className='text-center relative z-10'>
+                                <Image
+                                    src={data?.image}
+                                    alt="user Image"
+                                    width={100}
+                                    height={100}
+                                    className='rounded-full mx-auto transition-transform duration-300 ease-in-out group-hover:scale-105'
+                                />
                                 <h1 className='font-bold text-lg text-blue-500'>{data?.name}</h1>
                             </div>
 
-                            <div className='text-center'>
+                            <div className='text-center relative z-10'>
                                 <div className='text-center mx-auto flex justify-center'>
                                     <StarRatings
                                         rating={data.rating}
@@ -83,12 +92,13 @@ const ReviewSlider = () => {
                                         starDimension="20px"
                                         starSpacing="2px"
                                     />
-
                                 </div>
                                 <h1 className='text-white'>{data?.review_time}</h1>
                                 <h1 className='text-white'>{data?.review}</h1>
                             </div>
+
                         </div>
+
                     </SwiperSlide>
                     )
                 }
