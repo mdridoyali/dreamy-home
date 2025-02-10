@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
     return (
-        <div className='mb-20 w-11/12  mx-auto'>
+        <div className=' w-11/12 mb-28 mx-auto'>
             <SectionTitle title={'Why Choose Us'} titleDescription={'Experience, Expertise & Excellence – Discover Why We are the Best Choice!'}/>
             <div className=' md:flex justify-center items-center gap-6 md:gap-20 '>
                 <div className='md:w-1/2'>

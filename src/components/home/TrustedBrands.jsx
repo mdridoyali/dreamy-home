@@ -20,13 +20,12 @@ const TrustedBrands = () => {
             <div className="w-11/12 mx-auto py-5 absolute top-10 left-0 right-0">
                 <SectionTitle pColor={'text-white'} title="Trusted by Leading Brands" titleDescription="We have worked with 100+ trusted companies." />
                 <div className="w-1/2 mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 justify-center items-center text-center">
-                    <Image className="mx-auto" width={100} src={walton} alt="Walton" />
-                    <Image className="mx-auto" width={100} src={rfl} alt="RFL" />
-                    <Image className="mx-auto" width={100} src={brb} alt="BRB" />
-                    <Image className="mx-auto" width={100} src={nasir} alt="Nasir" />
-                    {/* <Image className="mx-auto" width={100} src={vision} alt="Vision" /> */}
-                    <Image className="mx-auto" width={100} src={square} alt="Square" />
-                    <p className=" bg-white w-full h-full flex justify-center items-center text-xl text-blue-500 font-bold cursor-pointer " width={100}>More <FaArrowRight/></p>
+                    <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={walton} alt="Walton" />
+                    <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={rfl} alt="RFL" />
+                    <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={brb} alt="BRB" />
+                    <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={nasir} alt="Nasir" />
+                    <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={square} alt="Square" />
+                    <p className=" bg-white shadow-lg shadow-blue-500 w-full h-full flex justify-center items-center text-xl text-blue-500 font-bold cursor-pointer " width={100}>More <FaArrowRight /></p>
                 </div>
             </div>
         </div>

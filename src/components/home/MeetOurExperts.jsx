@@ -58,11 +58,11 @@ const MeetOurExperts = () => {
                             <h2 className='text-blue-500 font-semibold text-xl'>{data?.name}{' '}{'('}{data.location}{')'}</h2>
                             <h3 className='font-semibold text-gray-600'>{data.designation}{'. '}<span className='text-xs font-normal'>{data.experience}</span></h3>
                             <p className='text-sm text-gray-600'>{data.description} </p>
-                            <div className='flex gap-5 mt-2 text-2xl justify-end'>
-                                <FaFacebook className='cursor-pointer text-blue-500' />
-                                <FaLinkedinIn className='cursor-pointer' />
-                                <FaTwitter className='cursor-pointer' />
-                                <MdAddIcCall className='cursor-pointer' />
+                            <div className='flex gap-5 mt-3 text-2xl justify-end'>
+                                <FaFacebook className='cursor-pointer text-blue-500 hover:text-black duration-300' />
+                                <FaLinkedinIn className='cursor-pointer text-blue-500 hover:text-black duration-300' />
+                                <FaTwitter className='cursor-pointer text-blue-500 hover:text-black duration-300' />
+                                <MdAddIcCall className='cursor-pointer text-blue-500 hover:text-black duration-300' />
                             </div>
                         </div>
                     </div>)

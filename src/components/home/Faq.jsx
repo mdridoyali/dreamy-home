@@ -19,10 +19,10 @@ const Faq = () => {
             <div className="md:flex justify-between gap-10 items-center">
                 {/* Image Section */}
                 <div className="w-full md:w-1/2  grid grid-cols-2 md:grid-cols-2 gap-5">
-                    <Image className="w-52 rounded-xl object-cover" src={img1} alt="FAQ Image 1" />
-                    <Image className="w-52 rounded-xl object-cover" src={img2} alt="FAQ Image 2" />
-                    <Image className="w-52 rounded-xl object-cover" src={img3} alt="FAQ Image 3" />
-                    <Image className="w-52 rounded-xl object-cover border" src={img4} alt="FAQ Image 4" />
+                    <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img1} alt="FAQ Image 1" />
+                    <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img2} alt="FAQ Image 2" />
+                    <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img3} alt="FAQ Image 3" />
+                    <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img4} alt="FAQ Image 4" />
                 </div>
 
                 {/* Accordion Section */}
