@@ -20,8 +20,7 @@ export default function Navbar() {
             <nav className="w-11/12 flex justify-between items-center mx-auto py-2  ">
                 {/* Logo */}
                 <div className="w-20 md:w-28">
-                    {/* DreamyHome */}
-                    <Image className="" src={logo} alt="logo" width={120} />
+                    <Link href={'/'}> <Image className="" src={logo} alt="logo" width={120} /></Link>
                 </div>
 
                 {/* Mobile Menu */}

@@ -2,6 +2,7 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import logo from '@/app/assets/logo-footer.png'
+import Link from "next/link";
 
 const Footer = () => {
 
@@ -12,7 +13,9 @@ const Footer = () => {
             <div className="w-11/12   mx-auto py-7 flex flex-col md:flex-row items-center justify-between">
                 {/* Left Side - Branding */}
                 <div className="text-lg font-semibold flex flex-col items-center">
-                    <Image className="" src={logo} alt="logo" width={120} />
+                    <div className="w-20 md:w-28">
+                        <Link href={'/'}> <Image className="" src={logo} alt="logo" width={120} /></Link>
+                    </div>
                     © 2025 DreamyHome. All rights reserved.
                 </div>
 

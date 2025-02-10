@@ -55,7 +55,7 @@ const ReviewSlider = () => {
 
 
     return (
-        <div className="shadow-md shadow-blue-500 rounded-md hover:shadow-lg hover:shadow-blue-500  transition-all ">
+        <div className="shadow-md shadow-blue-500 rounded-md hover:shadow-lg hover:shadow-blue-500  transition-all  ">
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
@@ -67,7 +67,7 @@ const ReviewSlider = () => {
             >
                 {
                     reviews?.map(data => <SwiperSlide className='' key={data.id}>
-                        <div className='group overflow-hidden transition-all  space-y-3 px-7 md:px-10  py-5 rounded-md bg-secondary text-sm md:text-base'>
+                        <div className='group overflow-hidden transition-all  space-y-3 px-7 md:px-10  py-5 rounded-md text-sm md:text-base bg-black opacity-60 '>
                             <div className='text-center overflow-hidden'>
                                 <Image src={data?.image} alt="user Image" width={100} height={100} className='rounded-full mx-auto  transition-transform duration-300 ease-in-out group-hover:scale-105' />
                                 <h1 className='font-bold text-lg text-blue-500'>{data?.name}</h1>
@@ -85,8 +85,8 @@ const ReviewSlider = () => {
                                     />
 
                                 </div>
-                                <h1 className=''>{data?.review}</h1>
-                                <h1 className=''>{data?.review_time}</h1>
+                                <h1 className='text-white'>{data?.review_time}</h1>
+                                <h1 className='text-white'>{data?.review}</h1>
                             </div>
                         </div>
                     </SwiperSlide>

@@ -49,7 +49,7 @@ const PortfolioPreview = () => {
                         <Image className="object-cover h-full w-full" src={data?.img} alt="Design Image" />
                         <p className=" absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center p-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                             {data?.description}
-                            <p className='text-right flex justify-end text-xl text-white font-bold '><button className='hover:text-blue-500'><FaArrowRight /></button></p>
+                            <span className='text-right flex justify-end text-xl text-white font-bold '><button className='hover:text-blue-500'><FaArrowRight /></button></span>
                         </p>
                     </div>)
                 }
