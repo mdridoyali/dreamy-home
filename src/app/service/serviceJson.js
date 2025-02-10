@@ -12,7 +12,7 @@ const services = [
       title: "Residential Interior Design",
       description: "Transform your home with personalized interior designs that match your style and comfort.",
       image: img1,
-      bannerImage: "/images/services/residential_banner.jpg",
+      bannerImage:img1,
       longDescription: "Our residential interior design services focus on creating beautiful, comfortable, and functional spaces tailored to your needs. We specialize in modern, traditional, and luxury home designs.",
       keyFeatures: [
         "Custom space planning",
@@ -38,7 +38,7 @@ const services = [
       title: "Commercial Interior Design",
       description: "Create functional and stylish workspaces that enhance productivity and brand identity.",
       image: img2,
-      bannerImage: "/images/services/commercial_banner.jpg",
+      bannerImage:img2,
       longDescription:
         "Our commercial interior design services ensure a professional and inspiring workplace. From corporate offices to retail spaces, we optimize layouts, lighting, and branding elements.",
       keyFeatures: [
@@ -65,7 +65,7 @@ const services = [
       title: "Luxury Interior Design",
       description: "Experience elegance with our high-end luxury designs, featuring premium materials and unique aesthetics.",
       image: img3,
-      bannerImage: "/images/services/luxury_banner.jpg",
+      bannerImage:img3,
       longDescription:
         "Our luxury interior designs bring sophistication and exclusivity to your space. We use high-end materials, custom-made furniture, and exquisite decor to achieve perfection.",
       keyFeatures: [
@@ -92,7 +92,7 @@ const services = [
       title: "Modular Kitchen Design",
       description: "Upgrade your kitchen with modern modular layouts that optimize space and functionality.",
       image: img4,
-      bannerImage: "/images/services/kitchen_banner.jpg",
+      bannerImage:img4,
       longDescription:
         "Our modular kitchen designs focus on maximizing storage, efficiency, and style. We create seamless kitchen layouts with top-quality materials and smart technology.",
       keyFeatures: [
@@ -119,7 +119,7 @@ const services = [
       title: "Furniture & Decor",
       description: "Get custom furniture and decorative elements that enhance the beauty of your space.",
       image: img5,
-      bannerImage: "/images/services/furniture_banner.jpg",
+      bannerImage:img5,
       longDescription:
         "Our furniture and decor services include sourcing, designing, and arranging furniture pieces that complement your interior theme.",
       keyFeatures: [
@@ -146,7 +146,7 @@ const services = [
       title: "Lighting & Space Planning",
       description: "Enhance ambiance with expert lighting solutions and optimized space utilization.",
       image: img6,
-      bannerImage: "/images/services/lighting_banner.jpg",
+      bannerImage:img6,
       longDescription:
         "Our lighting and space planning services help create visually appealing and energy-efficient interiors, enhancing both aesthetics and functionality.",
       keyFeatures: [
