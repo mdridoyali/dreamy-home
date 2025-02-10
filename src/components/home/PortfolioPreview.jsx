@@ -8,6 +8,8 @@ import img3 from '@/app/assets/ourWorks/3.jpg'
 import img4 from '@/app/assets/ourWorks/4.jpg'
 import img5 from '@/app/assets/ourWorks/5.jpg'
 import img6 from '@/app/assets/ourWorks/6.jpg'
+import { Button } from '../ui/button';
+import { FaArrowRight } from 'react-icons/fa';
 const PortfolioPreview = () => {
     return (
         <div className='mb-20 w-11/12 mx-auto'>
@@ -17,6 +19,7 @@ const PortfolioPreview = () => {
                     <Image className="object-cover h-full w-full" src={img1} alt="Design Image" />
                     <p className=" absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center p-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                         Explore our stunning interior design projects, where creativity meets functionality. From modern homes to sophisticated office spaces, our expert designs bring dreams to life. Browse our portfolio and get inspired for your next project!
+                        <p className='text-right flex justify-end text-xl text-white font-bold '><button className='hover:text-blue-500'><FaArrowRight/></button></p>
                     </p>
                 </div>
                 <div className="group relative min-h-[55vh] overflow-hidden rounded">
