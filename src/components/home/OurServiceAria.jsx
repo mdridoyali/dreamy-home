@@ -31,7 +31,7 @@ const cities = [
 const OurServiceAria = () => {
     return (
         <div className=' mb-48 relative'>
-            <Image className='h-[100vh] md:h-[70vh] object-cover' src={img} alt="Service Area" />
+            <Image className='h-[80vh] md:h-[70vh] object-cover' src={img} alt="Service Area" />
             <div className='absolute top-[120px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center'>
                 <SectionTitle
                     title={'Our Service Area'}
