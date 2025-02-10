@@ -14,7 +14,7 @@ const ReviewSection = () => {
       <Image className="w-full h-[100vh] md:h-[80vh] object-cover" src={parallax} alt="Parallax" />
 
       <div className='w-11/12 mx-auto absolute top-0 left-0 right-0'>
-        <SectionTitle title={'Client Testimonials'} titleDescription={'Here is our valuable reviews from client.'} />
+        <SectionTitle pColor={'text-white'} title={'Client Testimonials'} titleDescription={'Here is our valuable reviews from client.'} />
         <div className='w-full max-w-[1000px] mx-auto text-center'>
           <ReviewSlider />
         </div>

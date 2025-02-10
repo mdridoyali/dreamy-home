@@ -11,6 +11,7 @@ import vision from "@/app/assets/companyLogo/vision.jpg";
 import square from "@/app/assets/companyLogo/square.jpg";
 import rfl from "@/app/assets/companyLogo/rfl.jpg";
 import parallax from "@/app/assets/parallax.jpg";
+import { FaArrowRight } from "react-icons/fa";
 
 const TrustedBrands = () => {
     return (
@@ -23,13 +24,12 @@ const TrustedBrands = () => {
                     <Image className="mx-auto" width={100} src={rfl} alt="RFL" />
                     <Image className="mx-auto" width={100} src={brb} alt="BRB" />
                     <Image className="mx-auto" width={100} src={nasir} alt="Nasir" />
-                    <Image className="mx-auto" width={100} src={vision} alt="Vision" />
+                    {/* <Image className="mx-auto" width={100} src={vision} alt="Vision" /> */}
                     <Image className="mx-auto" width={100} src={square} alt="Square" />
+                    <p className=" bg-white w-full h-full flex justify-center items-center text-xl text-blue-500 font-bold cursor-pointer " width={100}>More <FaArrowRight/></p>
                 </div>
             </div>
         </div>
-
-
     );
 };
 
