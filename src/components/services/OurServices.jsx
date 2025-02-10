@@ -2,7 +2,7 @@ import Image from "next/image";
 import SectionTitle from "../SectionTitle";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import services from "@/app/service/serviceJson";
+import services from "@/app/services/serviceJson";
 
 
 const OurServices = () => {
@@ -29,7 +29,7 @@ const OurServices = () => {
             <div className="p-5">
               <h3 className="text-xl font-semibold text-blue-500">{data?.title}</h3>
               <p className="text-gray-600 mt-2">{data?.description}</p>
-              <Link href={`/service/${data.id}`}><Button className='bg-blue-500 '>See Details</Button></Link>
+              <Link href={`/services/${data.id}`}><Button className='bg-blue-500 '>See Details</Button></Link>
             </div>
           </div>
         ))}

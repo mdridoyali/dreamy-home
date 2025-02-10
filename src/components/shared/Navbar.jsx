@@ -36,7 +36,7 @@ export default function Navbar() {
                                 <Link href="/" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaHome />Home</span><FaArrowRight /></Link>
                             </SheetClose>
                             <SheetClose asChild>
-                                <Link href="/service" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/service' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaServicestack />Service</span><FaArrowRight /></Link>
+                                <Link href="/services" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/service' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaServicestack />Service</span><FaArrowRight /></Link>
                             </SheetClose>
                             <SheetClose asChild>
                                 <Link href="/about" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/about' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><MdRoundaboutRight />About Us</span><FaArrowRight /></Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
                 {/* Desktop Menu */}
                 <div className="hidden md:flex gap-6">
                     <NavLink href="/" currentPath={pathname}>Home</NavLink>
-                    <NavLink href="/service" currentPath={pathname}>Service</NavLink>
+                    <NavLink href="/services" currentPath={pathname}>Service</NavLink>
                     <NavLink href="/about" currentPath={pathname}>About Us</NavLink>
                     <NavLink href="/contact" currentPath={pathname}>Contact Us</NavLink>
                     <NavLink href="/login" currentPath={pathname}>Login</NavLink>
