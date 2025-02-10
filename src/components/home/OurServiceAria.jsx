@@ -49,7 +49,7 @@ const OurServiceAria = () => {
                 {
                     cities?.map(data => <div className='w-full lg:w-3/4 h-full md:h-full flex flex-col justify-center items-center rounded-lg shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500'>
                         <Image src={data?.image} className='rounded-t-lg w-full h-20 md:h-full' />
-                        <h2 className='text-xl font-semibold md:p-2 text-gray-600 '>{data?.city}</h2>
+                        <h2 className='text-xl font-semibold md:p-2 text-gray-500 '>{data?.city}</h2>
                     </div>
                     )}
             </div>
