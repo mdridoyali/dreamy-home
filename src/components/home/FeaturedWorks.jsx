@@ -9,6 +9,7 @@ import img4 from '@/app/assets/ourWorks/4.jpg'
 import img5 from '@/app/assets/ourWorks/5.jpg'
 import img6 from '@/app/assets/ourWorks/6.jpg'
 import { FaArrowRight } from 'react-icons/fa';
+import { Button } from '../ui/button';
 
 
 const portfolio = [
@@ -53,10 +54,10 @@ const FeaturedWorks = () => {
                 {
                     portfolio.map(data => <div className="group relative min-h-[55vh] overflow-hidden rounded">
                         <Image className="object-cover h-full w-full" src={data?.img} alt="Design Image" />
-                        <div className=" absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-left">
-                            <h2 className='text-lg font-semibold'>{data?.title}</h2>
+                        <div className=" absolute bottom-0 left-0 w-full bg-blue-600  text-white p-7 translate-y-full ease-in-out group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-center flex flex-col justify-center items-center gap-3 h-full">
+                            <h2 className='text-lg font-bold'>{data?.title}</h2>
                             <p className='text-base'>{data?.description}</p>
-                            <span className='text-right flex justify-end text-xl text-blue-500 font-bold '><button className='hover:text-white'><FaArrowRight /></button></span>
+                            <span className=' flex justify-end text-xl font-bold '><Button className='  px-7 py-2 '><FaArrowRight /></Button></span>
                         </div>
                     </div>)
                 }

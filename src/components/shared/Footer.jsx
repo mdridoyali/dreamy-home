@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
 
                 {/* Right Side - Button */}
-                <Button variant="outline" className="mt-4 border-none bg-blue-500 md:mt-0">
+                <Button variant="outline" className="mt-4 border-none bg-blue-500 hover:shadow-lg hover:shadow-blue-500 md:mt-0">
                     Subscribe
                 </Button>
             </div>

@@ -1,9 +1,12 @@
-import React from 'react';
+
+import Banner from "@/components/services/Banner";
+
 
 const ServicePage = () => {
     return (
-        <div>
-            <h1>This is service page</h1>
+        <div className=" mx-auto">
+         <Banner/>
+
         </div>
     );
 };
