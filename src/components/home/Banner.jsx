@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import { Button, } from '../ui/button';
 import { Input } from '../ui/input';
 import { FaSearch } from "react-icons/fa";
+import Link from 'next/link';
 
 const Banner = () => {
     const images = [img1, img2, img3, img4];
@@ -50,7 +51,7 @@ const Banner = () => {
                     <Input type="email" placeholder="Search" />
                     <Button type="submit " className='bg-blue-500 hover:shadow-lg hover:shadow-blue-500'><FaSearch /></Button>
                 </div>
-                <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">Get a Free Consultation</button>
+                <Link href={'/contact'}><button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">Get a Free Consultation</button></Link>
             </div>
         </div>
     );

@@ -75,8 +75,10 @@ const ServiceDetails = ({ params }) => {
 
             <BookService />
 
+            <div className="mt-16  border border-blue-500 "></div>
+
             {/* FAQ Section */}
-            <div className="mt-8">
+            <div className="mt-10">
                 <h3 className="text-2xl font-semibold text-blue-500">FAQs</h3>
                 <div className="mt-4 mb-10 space-y-3">
                     {service.faq.map((item, index) => (

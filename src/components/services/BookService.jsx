@@ -15,7 +15,7 @@ import { Toaster, toast } from "react-hot-toast";
 
 const BookService = () => {
     return (
-        <div>
+        <div className="mt-8 md:mt-0">
             <Toaster />
             <AlertDialog>
                 <AlertDialogTrigger asChild>

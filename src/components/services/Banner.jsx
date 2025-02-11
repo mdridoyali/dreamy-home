@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import serviceImg from "@/app/assets/banner/1.jpg";
+import Link from 'next/link';
 
 
 
@@ -10,7 +11,7 @@ const Banner = () => {
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white text-center px-5">
                 <h1 className="text-4xl font-bold">Transform Your Space with Our Expert Services</h1>
                 <p className="mt-2">Innovative & Customized Interior Design Solutions</p>
-                <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">Get a Free Consultation</button>
+                <Link href={'/contact'}><button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">Get a Free Consultation</button></Link>
             </div>
         </div>
     );
