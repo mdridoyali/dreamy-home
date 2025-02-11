@@ -1,5 +1,7 @@
 import Image from "next/image";
 import services from "../serviceJson";
+import BookService from "@/components/services/BookService";
+
 
 
 const ServiceDetails = ({ params }) => {
@@ -69,6 +71,9 @@ const ServiceDetails = ({ params }) => {
                     </div>
                 </div>
             </div>
+
+
+            <BookService />
 
             {/* FAQ Section */}
             <div className="mt-8">
