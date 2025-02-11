@@ -28,7 +28,7 @@ const ContactUs = () => {
     return (
         <div className="w-11/12 mx-auto py-16">
             <Toaster />
-            <SectionTitle title={'Contact Us'} titleDescription={'  Have questions? We would love to hear from you!'}/>
+            <SectionTitle title={'Contact Us'} titleDescription={'  Have questions? We would love to hear from you!'} />
 
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
                 {/* Contact Info */}
@@ -86,7 +86,17 @@ const ContactUs = () => {
                 </form>
             </div>
 
-
+            {/* Google Map*/}
+            <div className="mt-20">
+                <SectionTitle title={'Where to Find Us'}/>
+                <iframe
+                    className="w-full mx-auto md:w-2/3 h-[500px] rounded-lg"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7462.754643564728!2d90.41876817405698!3d23.79530668416946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1739243082064!5m2!1sbn!2sbd"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                ></iframe>
+            </div>
         </div>
     );
 };
