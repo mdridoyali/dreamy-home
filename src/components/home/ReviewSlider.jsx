@@ -26,6 +26,14 @@ const reviews = [
     },
     {
         "id": 3,
+        "name": "Sumaya kabir",
+        "image": "https://i.ibb.co.com/whsvc5RM/1.jpg",
+        "rating": 4,
+        "review": "Absolutely loved the interior design service! My living room looks stunning and elegant. Highly recommended!",
+        "review_time": "2024-01-25T10:15:00Z"
+    },
+    {
+        "id": 4,
         "name": "Farzana Karim",
         "image": "https://i.ibb.co.com/zhdFXrdT/2.jpg",
         "rating": 5,
@@ -33,7 +41,7 @@ const reviews = [
         "review_time": "2024-01-15T08:45:00Z"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Raihan Siddique",
         "image": "https://i.ibb.co.com/N0RndP2/1.jpg",
         "rating": 4,
@@ -41,7 +49,7 @@ const reviews = [
         "review_time": "2023-12-30T16:20:00Z"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Fahim Ahad",
         "image": "https://i.ibb.co.com/xqzMcNpx/3.jpg",
         "rating": 5,

@@ -42,7 +42,6 @@ Check out the live site here: [Dreamy Home](https://dreamy-home.vercel.app/)
 - **Framework:** Next.js (App Router)  
 - **UI Library:** React 18, Tailwind CSS  
 - **State Management:** React Hooks  
-- **Forms & Validation:** React Hook Form  
 - **Icons:** React Icons  
 - **Notifications:** React Hot Toast  
 - **Deployment:** Vercel  
