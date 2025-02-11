@@ -42,11 +42,8 @@ const MeetOurExperts = () => {
         <div className='w-11/12 mb-20 mx-auto'>
             <SectionTitle title={'Meet Our Experts'} titleDescription={'Experts Dedicated to Designing Your Dream Spaces'} />
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-
-                {/* card 1 */}
-
                 {
-                    experts.map(data => <div className='group rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 overflow-hidden'>
+                    experts.map(data => <div  data-aos="flip-up" className='group rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 overflow-hidden'>
                         <div className="overflow-hidden">
                             <Image
                                 className='max-w-full h-80 object-cover rounded-t-xl transition-transform duration-300 ease-in-out group-hover:scale-105'
@@ -67,53 +64,6 @@ const MeetOurExperts = () => {
                         </div>
                     </div>)
                 }
-
-                {/* card 2
-                <div className='group overflow-hidden rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 '>
-                    <div className="overflow-hidden">
-                        <Image
-                            className='max-w-full h-80 object-cover rounded-t-xl duration-300 group-hover:scale-105'
-                            src={img3}
-                            alt="Hasan Kabir (Khulna)"
-                        />
-                    </div>
-                    <div className='p-4'>
-                        <h2 className='text-blue-500 font-semibold text-xl'>Hasan Kabir (Khulna)</h2>
-                        <h3 className='font-semibold text-gray-600'>Creative Space Planner.</h3>
-                        <p className='text-sm text-gray-600'>
-                            Hasan is an expert in maximizing small spaces with innovative layouts and smart furniture designs, making every inch count.
-                        </p>
-                        <div className='flex gap-5 mt-2 text-2xl justify-end'>
-                            <FaFacebook className='cursor-pointer' />
-                            <FaLinkedinIn className='cursor-pointer' />
-                            <FaTwitter className='cursor-pointer' />
-                            <MdAddIcCall className='cursor-pointer' />
-                        </div>
-                    </div>
-                </div>
-                {/* card 3 */}
-                {/* <div className='group overflow-hidden rounded-t-xl shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all space-y-1 '>
-                    <div className="overflow-hidden">
-                        <Image
-                            className='max-w-full h-80 object-cover rounded-t-xl duration-300 group-hover:scale-105'
-                            src={img2}
-                            alt="Hasan Kabir (Khulna)"
-                        />
-                    </div>
-                    <div className='p-4'>
-                        <h2 className='text-blue-500 font-semibold text-xl'>Nusrat Jahan (Rajshahi)</h2>
-                        <h3 className='font-semibold text-gray-600'>Residential Design Specialist.</h3>
-                        <p className='text-sm text-gray-600'>
-                            Passionate about cozy and personalized interiors, Nusrat brings warmth and harmony to every home she designs.
-                        </p>
-                        <div className='flex gap-5 mt-2 text-2xl justify-end'>
-                            <FaFacebook className='cursor-pointer' />
-                            <FaLinkedinIn className='cursor-pointer' />
-                            <FaTwitter className='cursor-pointer' />
-                            <MdAddIcCall className='cursor-pointer' />
-                        </div>
-                    </div>
-                </div>  */}
             </div>
         </div>
     );

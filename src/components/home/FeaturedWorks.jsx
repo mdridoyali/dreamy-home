@@ -53,7 +53,7 @@ const FeaturedWorks = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 mx-auto">
 
                 {
-                    portfolio.map(data => <div className="group relative min-h-[55vh] overflow-hidden rounded">
+                    portfolio.map(data => <div  data-aos="zoom-out-right" className="group relative min-h-[55vh] overflow-hidden rounded">
                         <Image className="object-cover h-full w-full" src={data?.img} alt="Design Image" />
                         <div className=" absolute bottom-0 left-0 w-full bg-blue-600  text-white p-7 translate-y-full ease-in-out group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 text-center flex flex-col justify-center items-center gap-3 h-full">
                             <h2 className='text-lg font-bold'>{data?.title}</h2>

@@ -18,7 +18,7 @@ const Faq = () => {
             <div className="md:hidden"><SectionTitle title={'Your Questions, Answered'} titleDescription={'Everything you need to know about our interior design services, process, and pricing.'} /></div>
             <div className="md:flex justify-between gap-10 items-center">
                 {/* Image Section */}
-                <div className="w-full md:w-1/2  grid grid-cols-2 md:grid-cols-2 gap-5">
+                <div data-aos="fade-right" className="w-full md:w-1/2  grid grid-cols-2 md:grid-cols-2 gap-5">
                     <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img1} alt="FAQ Image 1" />
                     <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img2} alt="FAQ Image 2" />
                     <Image className="w-52 rounded-xl object-cover shadow-md shadow-blue-500" src={img3} alt="FAQ Image 3" />
@@ -26,7 +26,7 @@ const Faq = () => {
                 </div>
 
                 {/* Accordion Section */}
-                <div className="w-full md:w-1/2 mt-5 md:mt-0">
+                <div data-aos="fade-left" className="w-full md:w-1/2 mt-5 md:mt-0">
                     <div className="hidden md:block"> <SectionTitle title={'Your Questions, Answered'} titleDescription={'Everything you need to know about our interior design services, process, and pricing.'} /></div>
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">

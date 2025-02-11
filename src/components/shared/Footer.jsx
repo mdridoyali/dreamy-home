@@ -9,7 +9,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="bg-[#232323]  dark:bg-gray-900 text-white ">
+        <footer data-aos="fade-up" className="bg-[#232323]  dark:bg-gray-900 text-white ">
             <div className="w-11/12   mx-auto py-7 flex flex-col md:flex-row items-center justify-between">
                 {/* Left Side - Branding */}
                 <div className="text-lg font-semibold flex flex-col items-center">

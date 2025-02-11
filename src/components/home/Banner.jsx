@@ -36,12 +36,13 @@ const Banner = () => {
                     src={images[currentImage]}
                     alt="Interior Design Banner"
                     priority
+                     data-aos="fade-up"
                 />
             </div>
 
 
             <div className="absolute top-[15%] md:top-[20%] w-72 md:w-auto left-1/2 transform -translate-x-1/2 text-center text-white bg-black bg-opacity-50 px-2 py-3 rounded-md">
-                <h2 className="text-4xl md:text-6xl font-bold text-blue-500 mb-2 md:mb-4">
+                <h2  data-aos="fade-up" className="text-4xl md:text-6xl font-bold text-blue-500 mb-2 md:mb-4">
                     Design Your Dream Space
                 </h2>
                 <p className="text-lg md:text-xl font-semibold max-w-lg mx-auto">

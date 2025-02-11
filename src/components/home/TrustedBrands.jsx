@@ -19,7 +19,7 @@ const TrustedBrands = () => {
             <Image className="w-full h-[100vh] md:h-[70vh] object-cover" src={parallax} alt="Parallax" />
             <div className="w-11/12 mx-auto py-5 absolute top-10 left-0 right-0">
                 <SectionTitle pColor={'text-white'} title="Trusted by Leading Brands" titleDescription="We have worked with 100+ trusted companies." />
-                <div className="w-1/2 mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 justify-center items-center text-center">
+                <div data-aos="zoom-out-up" className="w-1/2 mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 justify-center items-center text-center">
                     <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={walton} alt="Walton" />
                     <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={rfl} alt="RFL" />
                     <Image className="mx-auto shadow-lg shadow-blue-500" width={100} src={brb} alt="BRB" />
