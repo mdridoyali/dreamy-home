@@ -23,7 +23,7 @@ const LoginPage = () => {
 
     return (
         <section className="w-full min-h-screen flex items-center justify-center bg-gray-100 py-10">
-            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl bg-white rounded-xl shadow-lg p-8 space-y-8 md:space-y-0">
+            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl bg-white rounded-xl shadow-lg p-8 space-y-8 md:space-y-0"  data-aos="flip-up">
                 {/* Left side (Login image) */}
                 <div className="w-full md:w-1/2 relative">
                     <Image src={img} alt="login image" className="rounded-xl object-cover w-full h-full" />

@@ -18,13 +18,12 @@ const Register = () => {
       setError("Please fill in all fields.");
     } else {
       setError("");
-      // Handle login logic (authentication) here
     }
   };
 
   return (
     <section className="w-full min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white shadow-lg rounded-xl max-w-md w-full p-8">
+      <div className="bg-white shadow-lg rounded-xl max-w-md w-full p-8"  data-aos="flip-left">
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl font-semibold text-gray-800 mb-2">Register now</h2>

@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
+import Navbar, { AosInit } from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 
 const geistSans = Geist({
@@ -24,6 +24,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+          <head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+                />
+            </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
@@ -31,6 +37,7 @@ export default function RootLayout({ children }) {
         <div className=" mx-auto">
           <Navbar />
           <div className=" mx-auto min-h-[calc(100vh-250px)]"> {children}</div>
+          <AosInit />  {/* AOS Init Component */}
           <Footer />
         </div>
       </body>

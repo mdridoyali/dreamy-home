@@ -32,7 +32,7 @@ const ContactUs = () => {
 
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
                 {/* Contact Info */}
-                <div className="space-y-6">
+                <div className="space-y-6" data-aos="fade-right">
                     <div className="flex items-center space-x-4">
                         <FaPhoneAlt className="text-blue-500 text-2xl" />
                         <p className="text-lg font-medium text-gray-700">+123 456 7890</p>
@@ -50,7 +50,7 @@ const ContactUs = () => {
                 </div>
 
                 {/* Contact Form */}
-                <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg space-y-4">
+                <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg space-y-4"  data-aos="fade-left">
                     <input
                         type="text"
                         name="name"

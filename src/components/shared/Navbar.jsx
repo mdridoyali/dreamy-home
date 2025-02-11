@@ -11,6 +11,11 @@ import { MdRoundaboutRight, MdAddCall, MdLogin } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import NavLink from "../NavLink";
 
+
+import { useEffect } from "react";
+import Script from "next/script";
+
+
 export default function Navbar() {
 
     const pathname = usePathname();
@@ -64,3 +69,20 @@ export default function Navbar() {
         </div>
     );
 }
+
+
+
+export const AosInit = () => {
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            import("aos").then((AOS) => AOS.init({ duration: 1000, once: true }));
+        }
+    }, []);
+
+    return (
+        <Script
+            src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            strategy="afterInteractive"
+        />
+    );
+};
