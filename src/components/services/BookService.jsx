@@ -38,7 +38,7 @@ const BookService = () => {
                     <AlertDialogFooter>
                         <AlertDialogCancel>Cancel</AlertDialogCancel>
                         <AlertDialogAction
-                            onClick={() => toast.success("Successfully toasted!")}
+                            onClick={() => toast.success("Booking Confirmed")}
                             className="border-none bg-blue-500 text-white hover:bg-black hover:text-white hover:shadow-md hover:shadow-blue-600 transition"
                         >
                             Submit
