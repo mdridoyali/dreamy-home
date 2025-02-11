@@ -41,7 +41,7 @@ export default function Navbar() {
                                 <Link href="/" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaHome />Home</span><FaArrowRight /></Link>
                             </SheetClose>
                             <SheetClose asChild>
-                                <Link href="/services" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/service' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaServicestack />Service</span><FaArrowRight /></Link>
+                                <Link href="/services" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/services' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><FaServicestack />Service</span><FaArrowRight /></Link>
                             </SheetClose>
                             <SheetClose asChild>
                                 <Link href="/about" className={`text-lg font-medium flex items-center justify-between hover:bg-gray-200 rounded-sm hover:py-2 transition-all ${pathname === '/about' ? "text-blue-600 font-semibold" : "text-gray-800"} `}><span className="flex items-center gap-4"><MdRoundaboutRight />About Us</span><FaArrowRight /></Link>
