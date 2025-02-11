@@ -5,6 +5,7 @@ import img from '@/app/login/login.png';
 import google from '@/app/assets/companyLogo/google.png';
 import facebook from '@/app/assets/companyLogo/facebook.png';
 import SectionTitle from "@/components/SectionTitle";
+import { Button } from "@/components/ui/button";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -66,12 +67,12 @@ const LoginPage = () => {
                         {error && <p className="text-red-500 text-sm">{error}</p>}
 
                         {/* Login Button */}
-                        <button
+                        <Button
                             type="submit"
-                            className="w-full py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-200"
+                            className="w-full py-2 hover:bg-black hover:shadow-md hover:shadow-blue-500 bg-blue-600 text-white font-semibold rounded-lg shadow-m transition duration-200"
                         >
                             Log In
-                        </button>
+                        </Button>
                     </form>
 
                     {/* Forgot Password */}

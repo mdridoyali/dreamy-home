@@ -52,7 +52,7 @@ const Banner = () => {
                     <Input type="email" placeholder="Search" />
                     <Button type="submit " className='bg-blue-500 hover:shadow-lg hover:shadow-blue-500'><FaSearch /></Button>
                 </div>
-                <Link href={'/contact'}><button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">Get a Free Consultation</button></Link>
+                <Link href={'/contact'}><button className="mt-4 px-6 py-2 hover:bg-black hover:shadow-md hover:shadow-blue-500 bg-blue-500 duration-300 text-white rounded-lg">Get a Free Consultation</button></Link>
             </div>
         </div>
     );

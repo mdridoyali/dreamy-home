@@ -1,5 +1,6 @@
 "use client";
 import SectionTitle from "@/components/SectionTitle";
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
@@ -77,12 +78,12 @@ const ContactUs = () => {
                         className="w-full p-3 border rounded-lg"
                         required
                     ></textarea>
-                    <button
+                    <Button
                         type="submit"
-                        className="w-full bg-blue-500 text-white py-3 rounded-lg font-semibold hover:bg-black transition"
+                        className="w-full bg-blue-500 hover:shadow-md hover:shadow-blue-500 text-white py-3 rounded-lg font-semibold hover:bg-black transition"
                     >
                         Send Message
-                    </button>
+                    </Button>
                 </form>
             </div>
 

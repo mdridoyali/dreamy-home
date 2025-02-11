@@ -23,7 +23,7 @@ const experts = [
         "designation": "Creative Space Planner",
         "experience": "8+ years",
         "description": "Hasan is an expert in maximizing small spaces with innovative layouts and smart furniture designs, making every inch count.",
-        "image": img2
+        "image": img3
     },
     {
         "name": "Nusrat Jahan",
@@ -31,7 +31,7 @@ const experts = [
         "designation": "Residential Design Specialist",
         "experience": "7+ years",
         "description": "Passionate about cozy and personalized interiors, Nusrat brings warmth and harmony to every home she designs.",
-        "image": img3
+        "image": img2
     }
 ]
 
