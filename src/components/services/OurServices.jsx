@@ -13,6 +13,7 @@ const OurServices = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {services.map((data) => (
           <div
+           data-aos="zoom-in"
             key={data?.id}
             className="group cursor-pointer rounded-lg shadow-md shadow-blue-500 hover:shadow-lg hover:shadow-blue-500 transition-all overflow-hidden bg-white"
           >

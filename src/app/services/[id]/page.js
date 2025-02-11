@@ -18,12 +18,15 @@ const ServiceDetails = ({ params }) => {
                 src={service.bannerImage}
                 alt={service.title}
                 className="w-full h-[50vh] object-cover rounded-lg"
+                data-aos="fade-up"
             />
 
             {/* middle section */}
             <div className=" md:flex gap-10 ">
                 {/* left side */}
-                <div className="flex-1">
+                <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" className="flex-1">
                     <h2 className="text-4xl font-bold text-gray-800 mt-6">{service.title}</h2>
                     <p className="text-gray-600 text-lg mt-4">{service.longDescription}</p>
 
@@ -39,7 +42,9 @@ const ServiceDetails = ({ params }) => {
                 </div>
 
                 {/* right side */}
-                <div className="flex-1">
+                <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" className="flex-1">
                     {/* Pricing Section */}
                     <div className="mt-8">
                         <h3 className="text-2xl font-semibold text-blue-500">Pricing</h3>
@@ -73,12 +78,12 @@ const ServiceDetails = ({ params }) => {
             </div>
 
 
-            <BookService />
+            <div data-aos="fade-right"><BookService /> </div>
 
-            <div className="mt-16  border border-blue-500 "></div>
+            <div className="mt-16  border border-blue-500 " data-aos="fade-up"></div>
 
             {/* FAQ Section */}
-            <div className="mt-10">
+            <div data-aos="fade-up" className="mt-10">
                 <h3 className="text-2xl font-semibold text-blue-500">FAQs</h3>
                 <div className="mt-4 mb-10 space-y-3">
                     {service.faq.map((item, index) => (

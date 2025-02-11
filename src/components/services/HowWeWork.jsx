@@ -9,7 +9,7 @@ import img3 from "@/app/assets/servicePage/execution.jpg";
 const HowWeWork = () => {
     return (
 
-        <div div className="my-20 w-11/12 mx-auto" >
+        <div div className="my-20 w-11/12 mx-auto"  data-aos="zoom-in-down" >
             <SectionTitle title="How We Work" titleDescription="Our step-by-step design process ensures quality and satisfaction." />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
                 <div className="text-center border-b  ">
