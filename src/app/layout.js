@@ -24,20 +24,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-          <head>
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-                />
-            </head>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        />
+      </head>
       <body
+        overflow-x-hidden
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
 
         <div className=" mx-auto">
           <Navbar />
-          <div className=" mx-auto min-h-[calc(100vh-250px)]"> {children}</div>
-          <AosInit />  {/* AOS Init Component */}
+          <div className=" mx-auto min-h-[calc(100vh-250px)] overflow-hidden"> {children}</div>
+          <AosInit /> 
           <Footer />
         </div>
       </body>
